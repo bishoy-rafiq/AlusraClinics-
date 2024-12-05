@@ -1,0 +1,34 @@
+.error {
+    margin: 10px auto 0 ;
+    background-color: rgb(211, 129, 129);
+    color: rgb(161, 15, 15);
+    width: calc(100% - 40px);
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* =================  Successed  ================= */
+.Successed{
+    margin: 10px auto 0 ;
+    background-color: rgb(2, 125, 0);
+    color: var(--white);
+    width: calc(100% - 40px);
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* =================  View image while uploading ================= */
+#image-preview {
+    display: none;
+    max-width: 50%;
+    margin-top: 10px;
+    margin: auto;
+}

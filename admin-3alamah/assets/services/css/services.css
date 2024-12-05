@@ -1,0 +1,148 @@
+
+/* =================  content ================= */
+
+
+
+
+/* table{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+table tr{
+    height: 50px;
+}
+
+table th{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.addService,
+.addArticle,
+.addFeedback{
+    width: 180px;
+    padding: 15px;
+    background: var(--green1);
+}
+.addService:hover,
+.addArticle:hover,
+.addFeedback:hover{
+    background: var(--green2);
+}
+.view,
+.edit,
+.delete{
+    padding: 5px;
+    margin: 5px;
+}
+
+.view{
+    width: 120px;
+    background-color: var(--blue2);
+}
+.view:hover{
+    background-color: var(--blue);
+}
+
+.edit{
+    width: 80px;
+    background-color: rgb(255, 188, 65);
+}
+.edit:hover{
+    background-color:orange;
+}
+
+.delete{
+    width: 80px;
+    background-color: var(--red1);
+}
+.delete:hover{
+    background-color:var(--red2);
+}
+
+/* =================  pagination ================= */
+/* .pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active,
+.pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+}  */
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: #000;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin-left: 5px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.addService {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
